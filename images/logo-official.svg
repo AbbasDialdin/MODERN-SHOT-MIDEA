@@ -1,0 +1,39 @@
+<!-- Modern Shot Media Logo - Official Colors -->
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <!-- Yellow Background Gradient -->
+    <linearGradient id="yellowBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDD017;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#F9C80E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F4C430;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Green Triangle Gradient -->
+    <linearGradient id="greenTriangle" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#06D6A0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00B67A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#009B6B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Yellow Rounded Background -->
+  <rect width="500" height="500" rx="50" fill="url(#yellowBg)"/>
+  
+  <!-- Black Letter M -->
+  <g id="letterM">
+    <!-- Left stroke of M -->
+    <path d="M 80 450 L 120 80 L 180 80 L 250 350 L 320 80 L 380 80 L 420 450 L 360 450 L 340 180 L 280 420 L 220 420 L 160 180 L 140 450 Z" 
+          fill="#000000" 
+          stroke="#FFFFFF" 
+          stroke-width="4"/>
+  </g>
+  
+  <!-- Green Triangle in center -->
+  <path d="M 250 200 L 200 280 L 300 280 Z" 
+        fill="url(#greenTriangle)" 
+        stroke="#FFFFFF" 
+        stroke-width="2"/>
+  
+  <!-- Optional: Add subtle shadow for depth -->
+  <ellipse cx="250" cy="480" rx="200" ry="15" fill="#000000" opacity="0.1"/>
+</svg>
